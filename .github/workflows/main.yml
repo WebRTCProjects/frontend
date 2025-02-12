@@ -33,4 +33,4 @@ jobs:
           port: ${{ secrets.WebRTC_DO_PORT }}
           source: 'dist/spa/*'
           target: '/var/www/videoCall'
-          strip_components: 1
+          strip_components: 2

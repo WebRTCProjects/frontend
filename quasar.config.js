@@ -54,7 +54,7 @@ module.exports = configure(function (ctx) {
         node: 'node16',
       },
       env: {
-        API: ctx.dev ? 'http://localhost:3333' : 'https://api.chat.jemsit.net',
+        API: ctx.dev ? 'http://localhost:3333' : 'https://api.videocall.jemsit.info'
       },
 
       vueRouterMode: 'history', // available values: 'hash', 'history'
